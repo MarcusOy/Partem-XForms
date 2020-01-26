@@ -1,0 +1,45 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="4.2.0.709249" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.2.0" />
+    <PackageReference Include="Syncfusion.Xamarin.Buttons" Version="17.3.0.34" />
+    <PackageReference Include="Syncfusion.Licensing" Version="17.3.0.34" />
+    <PackageReference Include="Syncfusion.Xamarin.Core" Version="17.3.0.34" />
+    <PackageReference Include="Syncfusion.Xamarin.SfParallaxView" Version="17.3.0.34" />
+    <PackageReference Include="RestSharp" Version="106.10.1" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Syncfusion.Xamarin.SfBusyIndicator" Version="17.3.0.34" />
+    <PackageReference Include="Xamarin.FFImageLoading" Version="2.4.11.982" />
+    <PackageReference Include="Xamarin.FFImageLoading.Forms" Version="2.4.11.982" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Remove="MainPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Components\" />
+    <Folder Include="Images\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Images\background.png" />
+    <None Remove="Images\icon.png" />
+    <None Remove="Images\icon.png" />
+    <None Remove="Images\error.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Images\background.png">
+      <LogicalName>Background.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\icon.png">
+      <LogicalName>Icon.png</LogicalName>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Images\error.png">
+      <LogicalName>Error.png</LogicalName>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
