@@ -13,7 +13,7 @@
     <PackageReference Include="Syncfusion.Xamarin.Core" Version="17.3.0.34" />
     <PackageReference Include="Syncfusion.Xamarin.SfParallaxView" Version="17.3.0.34" />
     <PackageReference Include="RestSharp" Version="106.10.1" />
-    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
     <PackageReference Include="Syncfusion.Xamarin.SfBusyIndicator" Version="17.3.0.34" />
     <PackageReference Include="Xamarin.FFImageLoading" Version="2.4.11.982" />
     <PackageReference Include="Xamarin.FFImageLoading.Forms" Version="2.4.11.982" />
